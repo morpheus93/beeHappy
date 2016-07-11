@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0F5BEF1D1BE95C0002BE2A /* HomepageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0F5BEE1D1BE95C0002BE2A /* HomepageController.swift */; };
+		5E4070281D1C083E00F24BBC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4070271D1C083E00F24BBC /* MenuController.swift */; };
+		5E7BDD8D1D22CB8E000F1FC5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7BDD8C1D22CB8E000F1FC5 /* File.swift */; };
+		5E7FB76A1D2558AD00A35AC7 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7FB7691D2558AD00A35AC7 /* Notification.swift */; };
+		5E7FB7701D256DE200A35AC7 /* HPAlertCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7FB76F1D256DE200A35AC7 /* HPAlertCustomCell.swift */; };
+		5E91A24C1D25C9BA00A197F3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91A24B1D25C9BA00A197F3 /* UIImageExtension.swift */; };
+		5E91A24E1D25EA3B00A197F3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E91A24D1D25EA3B00A197F3 /* Alert.swift */; };
+		5E9C37171D2030FC00D7B2DA /* Hive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C37161D2030FC00D7B2DA /* Hive.swift */; };
+		5E9C371A1D20824000D7B2DA /* HiveDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C37191D20824000D7B2DA /* HiveDetailController.swift */; };
+		5E9C371C1D2133B200D7B2DA /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C371B1D2133B200D7B2DA /* ProfileController.swift */; };
+		5E9C371E1D214ED800D7B2DA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C371D1D214ED800D7B2DA /* Reachability.swift */; };
+		5EA5F61B1D197811000EE046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5F61A1D197811000EE046 /* AppDelegate.swift */; };
+		5EA5F61D1D197811000EE046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5F61C1D197811000EE046 /* ViewController.swift */; };
+		5EA5F6201D197811000EE046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA5F61E1D197811000EE046 /* Main.storyboard */; };
+		5EA5F6231D197811000EE046 /* beeHappy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5F6211D197811000EE046 /* beeHappy.xcdatamodeld */; };
+		5EA5F6251D197811000EE046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA5F6241D197811000EE046 /* Assets.xcassets */; };
+		5EA5F6281D197811000EE046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA5F6261D197811000EE046 /* LaunchScreen.storyboard */; };
+		5EA5F6321D1978B3000EE046 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5F6311D1978B3000EE046 /* API.swift */; };
+		5EC919101D201088008F343C /* HiveListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC9190F1D201088008F343C /* HiveListController.swift */; };
+		5EEFAD0B1D1981050042D5B2 /* Pods_beeHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEFAD0A1D1981050042D5B2 /* Pods_beeHappy.framework */; };
+		5EEFAD0F1D1984B40042D5B2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEFAD0E1D1984B40042D5B2 /* LoginController.swift */; };
+		5EEFAD111D1988420042D5B2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5EEFAD101D1988420042D5B2 /* Settings.bundle */; };
+		5EEFAD131D198FA50042D5B2 /* UrlsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EEFAD121D198FA50042D5B2 /* UrlsList.plist */; };
+		5EF211461D261109005877E9 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF211451D261109005877E9 /* UIViewController.swift */; };
+		5EF211481D261F1C005877E9 /* AlertDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF211471D261F1C005877E9 /* AlertDetailController.swift */; };
+		865033AB151641B834C46929 /* Pods_beeHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADE101634FB5C77EFB74AE4 /* Pods_beeHappy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50FCF5E12A7778C26DDD68D9 /* Pods-beeHappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beeHappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-beeHappy/Pods-beeHappy.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0F5BEE1D1BE95C0002BE2A /* HomepageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageController.swift; sourceTree = "<group>"; };
+		5E4070271D1C083E00F24BBC /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		5E7BDD8C1D22CB8E000F1FC5 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5E7FB7691D2558AD00A35AC7 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		5E7FB76F1D256DE200A35AC7 /* HPAlertCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPAlertCustomCell.swift; sourceTree = "<group>"; };
+		5E91A24B1D25C9BA00A197F3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		5E91A24D1D25EA3B00A197F3 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5E9C37161D2030FC00D7B2DA /* Hive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hive.swift; sourceTree = "<group>"; };
+		5E9C37191D20824000D7B2DA /* HiveDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiveDetailController.swift; sourceTree = "<group>"; };
+		5E9C371B1D2133B200D7B2DA /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		5E9C371D1D214ED800D7B2DA /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5EA5F6171D197811000EE046 /* beeHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beeHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA5F61A1D197811000EE046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EA5F61C1D197811000EE046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EA5F61F1D197811000EE046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EA5F6221D197811000EE046 /* beeHappy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = beeHappy.xcdatamodel; sourceTree = "<group>"; };
+		5EA5F6241D197811000EE046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA5F6271D197811000EE046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EA5F6291D197811000EE046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA5F6311D1978B3000EE046 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5EA5F6331D197AB9000EE046 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/beeHappy-bbdozkbwumeeiebojoobmwunaxlz/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		5EC9190F1D201088008F343C /* HiveListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiveListController.swift; sourceTree = "<group>"; };
+		5EEFAD0A1D1981050042D5B2 /* Pods_beeHappy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_beeHappy.framework; path = "Pods/../build/Debug-iphoneos/Pods_beeHappy.framework"; sourceTree = "<group>"; };
+		5EEFAD0E1D1984B40042D5B2 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		5EEFAD101D1988420042D5B2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		5EEFAD121D198FA50042D5B2 /* UrlsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UrlsList.plist; sourceTree = "<group>"; };
+		5EF211451D261109005877E9 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		5EF211471D261F1C005877E9 /* AlertDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDetailController.swift; sourceTree = "<group>"; };
+		9ADE101634FB5C77EFB74AE4 /* Pods_beeHappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beeHappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E01C685F292FF8E58088A8 /* Pods-beeHappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beeHappy.release.xcconfig"; path = "Pods/Target Support Files/Pods-beeHappy/Pods-beeHappy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA5F6141D197811000EE046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEFAD0B1D1981050042D5B2 /* Pods_beeHappy.framework in Frameworks */,
+				865033AB151641B834C46929 /* Pods_beeHappy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00411841CFD2EC42C47786EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EEFAD0A1D1981050042D5B2 /* Pods_beeHappy.framework */,
+				5EA5F6331D197AB9000EE046 /* Alamofire.framework */,
+				9ADE101634FB5C77EFB74AE4 /* Pods_beeHappy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		302F98CE852432F080DD3F22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50FCF5E12A7778C26DDD68D9 /* Pods-beeHappy.debug.xcconfig */,
+				D2E01C685F292FF8E58088A8 /* Pods-beeHappy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E7BDD8B1D22CB81000F1FC5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5E7BDD8C1D22CB8E000F1FC5 /* File.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		5E7FB76E1D256DCB00A35AC7 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				5E7FB76F1D256DE200A35AC7 /* HPAlertCustomCell.swift */,
+			);
+			name = Template;
+			sourceTree = "<group>";
+		};
+		5E91A24A1D25C9A900A197F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E91A24B1D25C9BA00A197F3 /* UIImageExtension.swift */,
+				5EF211451D261109005877E9 /* UIViewController.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5E9C37181D20310B00D7B2DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E9C37161D2030FC00D7B2DA /* Hive.swift */,
+				5E7FB7691D2558AD00A35AC7 /* Notification.swift */,
+				5E91A24D1D25EA3B00A197F3 /* Alert.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		5EA5F60E1D197811000EE046 = {
+			isa = PBXGroup;
+			children = (
+				5EA5F6191D197811000EE046 /* beeHappy */,
+				5EA5F6181D197811000EE046 /* Products */,
+				302F98CE852432F080DD3F22 /* Pods */,
+				00411841CFD2EC42C47786EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA5F6181D197811000EE046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA5F6171D197811000EE046 /* beeHappy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA5F6191D197811000EE046 /* beeHappy */ = {
+			isa = PBXGroup;
+			children = (
+				5E91A24A1D25C9A900A197F3 /* Extensions */,
+				5E7FB76E1D256DCB00A35AC7 /* Template */,
+				5EA5F6301D19789C000EE046 /* API */,
+				5EA5F62F1D197883000EE046 /* ViewController */,
+				5EA5F61A1D197811000EE046 /* AppDelegate.swift */,
+				5E9C371D1D214ED800D7B2DA /* Reachability.swift */,
+				5EA5F61E1D197811000EE046 /* Main.storyboard */,
+				5EA5F6241D197811000EE046 /* Assets.xcassets */,
+				5EA5F6261D197811000EE046 /* LaunchScreen.storyboard */,
+				5EA5F6291D197811000EE046 /* Info.plist */,
+				5EA5F6211D197811000EE046 /* beeHappy.xcdatamodeld */,
+				5EEFAD101D1988420042D5B2 /* Settings.bundle */,
+			);
+			path = beeHappy;
+			sourceTree = "<group>";
+		};
+		5EA5F62F1D197883000EE046 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EA5F61C1D197811000EE046 /* ViewController.swift */,
+				5E0F5BEE1D1BE95C0002BE2A /* HomepageController.swift */,
+				5EEFAD0E1D1984B40042D5B2 /* LoginController.swift */,
+				5E4070271D1C083E00F24BBC /* MenuController.swift */,
+				5EC9190F1D201088008F343C /* HiveListController.swift */,
+				5E9C37191D20824000D7B2DA /* HiveDetailController.swift */,
+				5E9C371B1D2133B200D7B2DA /* ProfileController.swift */,
+				5EF211471D261F1C005877E9 /* AlertDetailController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		5EA5F6301D19789C000EE046 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5E7BDD8B1D22CB81000F1FC5 /* Helpers */,
+				5E9C37181D20310B00D7B2DA /* Classes */,
+				5EA5F6311D1978B3000EE046 /* API.swift */,
+				5EEFAD121D198FA50042D5B2 /* UrlsList.plist */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA5F6161D197811000EE046 /* beeHappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA5F62C1D197811000EE046 /* Build configuration list for PBXNativeTarget "beeHappy" */;
+			buildPhases = (
+				36D1399B1C3FA51D9F857CBA /* [CP] Check Pods Manifest.lock */,
+				5EA5F6131D197811000EE046 /* Sources */,
+				5EA5F6141D197811000EE046 /* Frameworks */,
+				5EA5F6151D197811000EE046 /* Resources */,
+				3FA02F4BC349FE4F66AE4510 /* [CP] Embed Pods Frameworks */,
+				219EFE42AEACEFCA7EF00DB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beeHappy;
+			productName = beeHappy;
+			productReference = 5EA5F6171D197811000EE046 /* beeHappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA5F60F1D197811000EE046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Laouiti Elias Cédric";
+				TargetAttributes = {
+					5EA5F6161D197811000EE046 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5RY8QCBAEP;
+					};
+				};
+			};
+			buildConfigurationList = 5EA5F6121D197811000EE046 /* Build configuration list for PBXProject "beeHappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EA5F60E1D197811000EE046;
+			productRefGroup = 5EA5F6181D197811000EE046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA5F6161D197811000EE046 /* beeHappy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA5F6151D197811000EE046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EEFAD111D1988420042D5B2 /* Settings.bundle in Resources */,
+				5EA5F6281D197811000EE046 /* LaunchScreen.storyboard in Resources */,
+				5EA5F6251D197811000EE046 /* Assets.xcassets in Resources */,
+				5EA5F6201D197811000EE046 /* Main.storyboard in Resources */,
+				5EEFAD131D198FA50042D5B2 /* UrlsList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		219EFE42AEACEFCA7EF00DB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beeHappy/Pods-beeHappy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D1399B1C3FA51D9F857CBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA02F4BC349FE4F66AE4510 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beeHappy/Pods-beeHappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA5F6131D197811000EE046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9C371E1D214ED800D7B2DA /* Reachability.swift in Sources */,
+				5E9C371A1D20824000D7B2DA /* HiveDetailController.swift in Sources */,
+				5EF211461D261109005877E9 /* UIViewController.swift in Sources */,
+				5EA5F6231D197811000EE046 /* beeHappy.xcdatamodeld in Sources */,
+				5E91A24E1D25EA3B00A197F3 /* Alert.swift in Sources */,
+				5E4070281D1C083E00F24BBC /* MenuController.swift in Sources */,
+				5E0F5BEF1D1BE95C0002BE2A /* HomepageController.swift in Sources */,
+				5EA5F61D1D197811000EE046 /* ViewController.swift in Sources */,
+				5EA5F6321D1978B3000EE046 /* API.swift in Sources */,
+				5EC919101D201088008F343C /* HiveListController.swift in Sources */,
+				5E9C371C1D2133B200D7B2DA /* ProfileController.swift in Sources */,
+				5EA5F61B1D197811000EE046 /* AppDelegate.swift in Sources */,
+				5E7FB76A1D2558AD00A35AC7 /* Notification.swift in Sources */,
+				5E7FB7701D256DE200A35AC7 /* HPAlertCustomCell.swift in Sources */,
+				5E7BDD8D1D22CB8E000F1FC5 /* File.swift in Sources */,
+				5EEFAD0F1D1984B40042D5B2 /* LoginController.swift in Sources */,
+				5EF211481D261F1C005877E9 /* AlertDetailController.swift in Sources */,
+				5E9C37171D2030FC00D7B2DA /* Hive.swift in Sources */,
+				5E91A24C1D25C9BA00A197F3 /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EA5F61E1D197811000EE046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA5F61F1D197811000EE046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EA5F6261D197811000EE046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA5F6271D197811000EE046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA5F62A1D197811000EE046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EA5F62B1D197811000EE046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA5F62D1D197811000EE046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FCF5E12A7778C26DDD68D9 /* Pods-beeHappy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = beeHappy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laouiti.beeHappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5EA5F62E1D197811000EE046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E01C685F292FF8E58088A8 /* Pods-beeHappy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = beeHappy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laouiti.beeHappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA5F6121D197811000EE046 /* Build configuration list for PBXProject "beeHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA5F62A1D197811000EE046 /* Debug */,
+				5EA5F62B1D197811000EE046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA5F62C1D197811000EE046 /* Build configuration list for PBXNativeTarget "beeHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA5F62D1D197811000EE046 /* Debug */,
+				5EA5F62E1D197811000EE046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EA5F6211D197811000EE046 /* beeHappy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EA5F6221D197811000EE046 /* beeHappy.xcdatamodel */,
+			);
+			currentVersion = 5EA5F6221D197811000EE046 /* beeHappy.xcdatamodel */;
+			path = beeHappy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EA5F60F1D197811000EE046 /* Project object */;
+}
